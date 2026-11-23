@@ -1,0 +1,28 @@
+# Secrets and machine-specific configuration
+**/.env
+**/.env.local
+**/.env.*.local
+!**/.env.example
+!**/.env.local.example
+
+# Dependencies and generated output
+**/node_modules/
+**/.next/
+**/out/
+**/dist/
+**/build/
+**/coverage/
+**/*.tsbuildinfo
+
+# Local databases, logs, and editor/OS files
+**/*.sqlite
+**/*.sqlite-*
+**/*.db
+**/*.log
+.DS_Store
+Thumbs.db
+
+# Local captures and exports
+evidencias/
+**/evidencias/
+*.pdf
